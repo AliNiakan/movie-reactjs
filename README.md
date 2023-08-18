@@ -1,5 +1,5 @@
 # movie-reactjs (Front-end)
-movie-reactjs is an app like (Instagram/Imdb) , you can see your favorite movies, share it with your friends, comment your thoughts, ....
+movie-reactjs is an app like (Instagram/Imdb) , you can see your favorite movies, share it with your friends, comment your thoughts, .... <br/>
 *Set the back-end URL in config.json file
 
 Features: <br/>

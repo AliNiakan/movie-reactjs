@@ -1,8 +1,8 @@
 # movie-reactjs (Front-end)
 movie-reactjs is an app like (Instagram/Imdb) , you can see your favorite movies, share it with your friends, comment your thoughts, ....
 
-The back-end is coded by https://www.github.com/Vector-Fa  <br/>
-Back-end project link : https://github.com/Vector-Fa/movie-api
+The back-end is coded by [@Vector-Fa](https://www.github.com/Vector-Fa)  <br/>
+Back-end project link : [movie-api](https://github.com/Vector-Fa/movie-api)
 
 Features: <br/>
 -Login/Register <br/>

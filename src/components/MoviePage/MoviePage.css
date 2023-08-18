@@ -1,0 +1,325 @@
+/* Movie Page */
+
+.mp--container {
+    height: 100vh;
+}
+
+.movie--page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'TheGoodMonolith', sans-serif;
+
+}
+
+
+.movie--page h1 {
+    font-family: 'Freedom45', sans-serif;
+
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.movie--page img.thumbnail {
+    width: auto;
+    max-height: 600px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.movie--page img.thumbnail::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    border: 15px solid #000;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.movie--page img.thumbnail::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: -2;
+}
+
+.movie--page img.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.movie--page p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.movie--page p.description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.movie--page h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.movie--page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.movie--page li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+.movie--page img.additional-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.movie--page img.thumbnail {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
+.movie--page p.description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* Movie Page: slider */
+.slick-slider {
+    width: 100%;
+    max-height: 500px;
+
+}
+
+.slick-slide img.additional-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Movie Page: Add comment */
+.add-comment {
+    margin-top: 20px;
+}
+
+.add-comment h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.add-comment input[type="text"] {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.add-comment button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-comment button:hover {
+    background-color: #0056b3;
+}
+
+
+.comments-section {
+    font-family: 'Istanbul Pro', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #003366;
+}
+
+.comments-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.comments-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments-section li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.comments-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.comments-section a:hover {
+    cursor: pointer;
+    color: #3897f0;
+    text-decoration: none;
+}
+
+/* checkbox */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-input {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkbox-input:checked {
+    background-color: #c72f14;
+    border-color: #c72f14;
+}
+
+.checkbox-input:focus {
+    outline: none;
+    border-color: #3d70b2;
+}
+
+/* Styling for the warning icon */
+.fa-warning {
+    color: #ff9800;
+    margin-right: 5px;
+}
+
+
+
+/*Favorite add and remove */
+.favorites-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.add-favorite-button,
+.delete-favorite-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-favorite-button {
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+}
+
+.delete-favorite-button {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.suggest-button {
+    margin-top: 10px;
+    background-color: #e29505;
+    color: white;
+}
+
+.add-favorite-button:hover,
+.delete-favorite-button:hover,
+.suggest-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.spoiler {
+    background-color: #fff;
+    color: #fff;
+    user-select: none;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.spoiler:hover {
+    background-color: transparent;
+    color: inherit;
+}
+
+
+
+.suggest-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.suggest-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    max-width: 400px;
+}

@@ -1,0 +1,173 @@
+/* Friends */
+.friends {
+    height: 100vh;
+}
+
+.friends h1 {
+    margin-left: 230px;
+    color: #3498DB;
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.friends--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1E272E;
+    padding: 12px;
+    margin-left: 230px;
+    margin-top: 15px;
+    max-width: 300px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.friends--container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.friends--container>img {
+    object-fit: cover; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.friends--container h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #3498DB;
+    /* Change to a nice blue color */
+    font-family: 'Montserrat', sans-serif;
+    /* Use the imported font */
+    font-weight: 700;
+    /* Use a bold font weight */
+}
+
+
+
+.friends--container:hover h3 {
+    color: #2980B9;
+    transition: color 0.2s ease;
+}
+
+
+.friends--search-box {
+    margin-left: 50%;
+}
+
+.friends--not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-left: 200px;
+}
+
+.addfriend {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 45%;
+}
+
+.addfriend--search-input {
+    background-color: #141414;
+    border-radius: 20px;
+    color: white;
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.addfriend--search-input::placeholder {
+    color: #cacaca;
+}
+
+.margin-bottom {
+    position: fixed;
+    top: 30px;
+    left: 500px;
+    right: 20px;
+    padding: 20px;
+}
+
+.user-list {
+    list-style: none;
+    max-width: 700px;
+    margin-left: 35.2%;
+    padding: 0;
+}
+
+.user-list li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #141414;
+    border-radius: 8px;
+    color: #FFF;
+    transition: 0.5s ease;
+
+}
+
+.user-list li:hover {
+    background-color: #003366;
+    transition: 0.5s ease;
+}
+
+.user-list li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-list li p {
+    margin-left: 3%;
+}
+
+.user-list li p:hover {
+    color: #1E90FF;
+}
+
+
+.user-list li span {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+.search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    /* Blue color, you can change it to your preferred color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}

@@ -1,0 +1,18 @@
+/* GenreMovies */
+
+.genremovies {
+    margin-left: 200px;
+    display: flex;
+    height: 100vh;
+}
+
+.genremovies a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .genremovies {
+        flex-wrap: wrap;
+    }
+}

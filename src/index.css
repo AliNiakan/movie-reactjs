@@ -1,0 +1,21 @@
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #1E3C72, #1E90FF);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  font-family: 'Nunito';
+}
+
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+}

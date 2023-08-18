@@ -1,0 +1,73 @@
+/*My Info*/
+.my-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+.info-pfp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-details h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.followers-following p {
+    font-size: 16px;
+    margin-right: 20px;
+    color: #fff;
+    transition: color ease 0.3s;
+
+}
+
+.followers-following p:hover {
+    cursor: pointer;
+    color: #003366;
+    transition: color ease 0.3s;
+}
+
+
+.bio label {
+    font-weight: bold;
+    color: #fff;
+}
+
+.change-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    background-color: #003366;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.change-button:hover {
+    background-color: #1e3c72;
+}
+
+.change-button:focus {
+    outline: none;
+}
+
+.change-button:active {
+    background-color: #141414;
+}

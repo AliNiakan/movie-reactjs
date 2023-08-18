@@ -1,0 +1,8 @@
+.favorites-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 12px;
+    margin-left: 200px;
+}

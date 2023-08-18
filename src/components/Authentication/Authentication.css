@@ -1,0 +1,114 @@
+/* Login and Register */
+.login,
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login--page,
+.register--page {
+    width: auto;
+    height: auto;
+    background-color: #1E3C72;
+    border-radius: 20px;
+    text-align: center;
+    padding: 60px;
+}
+
+.login--page--title,
+.register--page--title {
+    font-family: 'Great Vibes';
+    font-size: 35px;
+    margin-top:0;
+    color: #6495ED;
+    user-select: none;
+}
+
+.login--input-group,
+.register--input-group {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.login--input-field,
+.register--input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 98%;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+
+.login--button,
+.register--button {
+    padding: 12px 20px;
+    margin-top: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #1E90FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.login--button:hover,
+.register--button:hover {
+    background-color: #4682B4;
+}
+
+.login--redirect,
+.register--redirect {
+    color: white;
+}
+
+#verify {
+    width: 200px;
+}
+
+
+
+/* LogOut */
+
+.logout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 20px;  
+    width: 80%;
+    max-width: 400px;
+    background-color: #141414;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.logout-button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #0056b3;
+}

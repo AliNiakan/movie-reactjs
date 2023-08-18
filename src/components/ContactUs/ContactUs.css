@@ -1,0 +1,46 @@
+/* ContactUs.css */
+.contact-us {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #003366;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us>h1,
+.contact-us>p {
+    font-family: monospace;
+    color: #1E90FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us>p {
+    font-size: large;
+    white-space: pre-wrap;
+}
+
+.contact-us>p>span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.developer-image {
+    position: absolute;
+    border-radius: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    border: #1E90FF 1px solid;
+    width: 250px;
+    height: 450px;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}

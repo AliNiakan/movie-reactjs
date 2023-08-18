@@ -1,0 +1,75 @@
+/* User Info */
+.profile-container {
+    height: 100vh;
+}
+
+#profile {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #1E3C72;
+}
+
+.profile-picture {
+    object-fit: cover; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#profile h1 {
+    font-family: 'Nasty Works Company', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.follow-btn {
+    font-family: 'Major Mono Display', sans-serif;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.follow-btn:hover {
+    color: #1E90FF;
+}
+
+.delete-friend,
+.add-friend {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 8px 12px;
+    background-color: #3897f0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.delete-friend:hover,
+.add-friend:hover {
+    cursor: pointer;
+}
+
+.profile-id:hover {
+    cursor: pointer;
+    color: #1E90FF;
+}
+
+.movie-list {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .movie-list {
+        flex-wrap: wrap;
+    }
+}

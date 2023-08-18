@@ -1,0 +1,80 @@
+
+/* Add movie */
+
+.add-movie-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+  
+  }
+  
+  .add-movie-form h1 {
+    font-family: 'Great Vibes';
+    font-size: 35px;
+    color: #6495ED;
+    user-select: none;
+    text-align: center;
+  }
+  
+  .add-movie-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .add-movie-form input[type="text"],
+  .add-movie-form input[type="file"],
+  .add-movie-form input[type="number"],
+  .add-movie-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-movie-form .genre-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .add-movie-form .genre-checkboxes label {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .add-movie-form .genre-checkboxes input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .add-movie-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .add-movie-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-movie-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .add-movie-form button.movie--add {
+    margin-top: 30px;
+  }

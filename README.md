@@ -13,5 +13,4 @@ Features: <br/>
 -Respond to suggestion that came from a friend  <br/>
 -Add movie panel for admin <br/>
 -Sorted movies by Genres  <br/>
-- ...
 

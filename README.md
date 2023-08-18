@@ -5,13 +5,13 @@ The back-end is coded by https://www.github.com/Vector-Fa
 Back-end project link : 
 
 Features: 
--Login/Register
--See full information of your favorite movie/game/series
--Add to favorite (shows in your profile)
--Add , Delete friend
--Suggest an Movie to friend
--Respond to suggestion that came from a friend 
--Add movie panel for admin
--Sorted movies by Genres 
+-Login/Register <br/>
+-See full information of your favorite movie/game/series <br/>
+-Add to favorite (shows in your profile) <br/>
+-Add , Delete friend <br/>
+-Suggest an Movie to friend <br/>
+-Respond to suggestion that came from a friend  <br/>
+-Add movie panel for admin <br/>
+-Sorted movies by Genres  <br/>
 - ...
 

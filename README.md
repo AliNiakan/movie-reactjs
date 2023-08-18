@@ -15,6 +15,6 @@ Features: <br/>
 -Hide spoiler comments  <br/>
 -See your friend favorite movies  <br/><br/>
 
-*Set the back-end URL in config.json file
+*Set the back-end URL in config.json file <br/>
 Back-end is coded by [@Vector-Fa](https://www.github.com/Vector-Fa) ,Project link : [movie-api](https://github.com/Vector-Fa/movie-api)
 

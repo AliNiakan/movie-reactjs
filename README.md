@@ -1,6 +1,6 @@
 # movie-reactjs (Front-end)
-movie-reactjs is an app like (Instagram/Imdb) , you can see your favorite movies, share it with your friends, comment your thoughts, .... <br/>
-*Set the back-end URL in config.json file
+movie-reactjs is an app like (Instagram/Imdb) , you can see your favorite movies, share it with your friends, comment your thoughts, .... 
+
 
 Features: <br/>
 -Login/Register <br/>
@@ -13,8 +13,8 @@ Features: <br/>
 -Sorted movies by Genres  <br/>
 -Share your comments for movies  <br/>
 -Hide spoiler comments  <br/>
--See your friend favorite movies  <br/>
+-See your friend favorite movies  <br/><br/>
 
-Back-end is coded by [@Vector-Fa](https://www.github.com/Vector-Fa)  <br/>
-Back-end project link : [movie-api](https://github.com/Vector-Fa/movie-api)
+*Set the back-end URL in config.json file
+Back-end is coded by [@Vector-Fa](https://www.github.com/Vector-Fa) ,Project link : [movie-api](https://github.com/Vector-Fa/movie-api)
 

@@ -13,8 +13,7 @@ Features: <br/>
 -Sorted movies by Genres  <br/>
 -Share your comments for movies  <br/>
 -Hide spoiler comments  <br/>
--See your friend favorite movies  <br/><br/>
+-See your friend favorite movies  <br/>
 
-*Set the back-end URL in config.json file <br/>
 Back-end is coded by [@Vector-Fa](https://www.github.com/Vector-Fa) ,Project link : [movie-api](https://github.com/Vector-Fa/movie-api)
 

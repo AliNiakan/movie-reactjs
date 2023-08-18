@@ -4,7 +4,7 @@ movie-reactjs is an app like (Instagram/Imdb) , you can see your favorite movies
 The back-end is coded by https://www.github.com/Vector-Fa
 Back-end project link : 
 
-Features: 
+Features: <br/>
 -Login/Register <br/>
 -See full information of your favorite movie/game/series <br/>
 -Add to favorite (shows in your profile) <br/>

@@ -13,4 +13,7 @@ Features: <br/>
 -Respond to suggestion that came from a friend  <br/>
 -Add movie panel for admin <br/>
 -Sorted movies by Genres  <br/>
+-Share your comments for movies  <br/>
+-Hide spoiler comments  <br/>
+-See your friend favorite movies  <br/>
 

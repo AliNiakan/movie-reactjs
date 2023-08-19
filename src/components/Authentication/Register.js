@@ -27,11 +27,14 @@ function Register() {
                     email: email
                 })
             });
+            
 
             const data = await response.json();
+            console.log(data);
+
             if (!data.success) {
                 setVerifyEmail(false);
-                alert(data.email)
+                alert(data.message)
                 return
             }
             console.log(data);
